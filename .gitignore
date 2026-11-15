@@ -1,0 +1,24 @@
+# Environment
+.venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Generated data and evaluation runs (reproducible from a seed)
+data/generated/
+data/tickets/
+data/labels/
+results/
+*.db
+*.sqlite
+
+# Local agent notes (not for publication)
+AGENTS.md
+WORKING-STYLE.md
+x.md
